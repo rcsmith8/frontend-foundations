@@ -128,4 +128,33 @@ form{
 .group {
     flex-direction:row;
 }
+.logo {
+    font-family: "Tangerine", cursive;
+    font-size: 24px;
+    color: #ecdbc9;
+    text-align:left;
+}
+.menu {
+text-align:right;
+font-size:10px;
+}
+.about {
+font-size:12px;
+text-align: right;
+}
+.download {
+font-size: 12px;
+text-align: left;
+
+}
+.blog {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item {
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+  }
 }
